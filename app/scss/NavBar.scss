@@ -10,15 +10,16 @@
             color: black;
             font-weight: bold;
             padding-left: 40px;
-            padding-right: 40px;
         }
         .search-box {
             width: 615px;
             height: 50px;
             padding: 0 10px 0 10px;
+            margin-left: 40px;
             border: 1px solid;
             border-color: #0063FF;
             border-radius: 15px;
+            font-size: 1.2rem;
         }
     }
 }
