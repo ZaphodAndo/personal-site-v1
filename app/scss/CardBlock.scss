@@ -1,0 +1,42 @@
+.card-block {
+    .card {
+        background-color: white;
+        width: 300px;
+        border-radius: 20px;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 5px 5px 20px rgb(65, 64, 64);
+        transform: translateZ(0);
+        transition-duration: 0.3s;
+        transition-property: transform;
+
+        h1 {
+            margin: 20px 0 20px 0;
+            font-size: 1.6rem;
+        }
+
+        p {
+            margin: 10px 0 10px 0;
+            font-size: 1.4rem;
+        }
+
+        .bottom-row {
+            display: flex;
+            justify-content: flex-start;
+
+            .tag {
+                margin-left: 110px;
+                background: -webkit-linear-gradient(#E431FF 25%, #6531FF 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+    .card:hover,
+    .card:focus,
+    .card:active {
+        transform: scale(1.1);
+    }
+}

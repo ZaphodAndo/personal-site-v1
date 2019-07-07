@@ -1,10 +1,48 @@
 body {
     background-color: white;
-    font-family: 'B612 Mono', monospace;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
     margin: 0;
 
     .highlights {
-        background-image: linear-gradient(to right, #00EEFF 0%, #0063FF 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(to right, #00EEFF 0%, #0063FF 40%);
         height: 428px;
+    }
+
+    .content-block {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 1111px;
+
+        div {
+            
+            a {
+                color: #0063FF;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            a:hover {
+                color: #E431FF;
+            }
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                margin-bottom: 0;
+            }
+
+            a {
+                margin-top: 10px;
+            }
+        }
     }
 }
