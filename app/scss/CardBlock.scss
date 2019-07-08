@@ -1,14 +1,20 @@
+@import 'Variables';
+
 .card-block {
     .card {
-        background-color: white;
+        display: flex;
+        flex-direction: column;
+        background-color: $background-colour;
         width: 300px;
         border-radius: 20px;
         padding: 20px;
         margin: 20px;
-        box-shadow: 5px 5px 20px rgb(65, 64, 64);
+        box-shadow: $box-shadow;
         transform: translateZ(0);
         transition-duration: 0.3s;
         transition-property: transform;
+        min-height: 280px;
+        max-height: 280px;
 
         h1 {
             margin: 20px 0 20px 0;
@@ -20,13 +26,19 @@
             font-size: 1.4rem;
         }
 
-        .bottom-row {
-            display: flex;
-            justify-content: flex-start;
+        .temp-fix {
+            padding-top: 30px;
+        }
 
+        .bottom-row {
+
+            .date {
+                float: left;
+            }
+            
             .tag {
-                margin-left: 110px;
-                background: -webkit-linear-gradient(#E431FF 25%, #6531FF 100%);
+                float: right;
+                background: $alt-gradient;
                 -webkit-background-clip: text;
                 background-clip: text;
                 -webkit-text-fill-color: transparent;

@@ -1,5 +1,7 @@
+@import 'Variables';
+
 body {
-    background-color: white;
+    background: $main-gradient;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -9,7 +11,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(to right, #00EEFF 0%, #0063FF 40%);
+        background-image: $main-gradient;
         height: 428px;
     }
 
@@ -20,15 +22,20 @@ body {
         max-width: 1111px;
 
         div {
+            background-color: $background-colour;
+            box-shadow: $box-shadow;
+            margin: 10px 0 10px 0;
+            padding: 10px;
+            border-radius: 10px;
             
             a {
-                color: #0063FF;
+                color: $main-colour;
                 text-decoration: none;
                 font-weight: bold;
             }
 
             a:hover {
-                color: #E431FF;
+                color: $alt-colour;
             }
         }
 
