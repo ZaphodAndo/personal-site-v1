@@ -2,13 +2,14 @@
 
 .nav-bar {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     font-size: 1.2rem;
-    background-color: $background-colour;
+    background-color: $main-colour;
 
     div {
         margin-top: 11px;
         margin-bottom: 11px;
+        padding-left: 410px;
         a {
             text-decoration: none;
             color: $text-colour;
@@ -17,33 +18,11 @@
         }
 
         a:hover {
-            color: $main-colour;
+            color: $primary-colour;
         }
 
         .home {
             margin: 0;
-        }
-
-        .search-box {
-            width: 615px;
-            height: 50px;
-            padding: 0 10px 0 10px;
-            margin-left: 40px;
-            border-width: 1px;
-            border-color: $main-colour;
-            border-radius: 15px;
-            font-size: 1.2rem;
-            -webkit-transform: perspective(1px) translateZ(0);
-            transform: perspective(1px) translateZ(0);
-            box-shadow: 0 0 2px rgba(0, 0, 0, 0);
-            -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
-            -webkit-transition-property: box-shadow;
-            transition-property: box-shadow;
-        }
-
-        .search-box:hover, .search-box:focus, .search-box:active {
-            box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
         }
     }
 }

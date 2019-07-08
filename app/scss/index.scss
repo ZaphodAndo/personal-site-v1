@@ -1,55 +1,87 @@
 @import 'Variables';
 
 body {
-    background: $main-gradient;
+    background-color: $background-colour;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
     margin: 0;
 
-    .highlights {
+    .main {
         display: flex;
-        align-items: center;
         justify-content: center;
-        background-image: $main-gradient;
-        height: 428px;
-    }
+        margin-top: 20px;
 
-    .content-block {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        max-width: 1111px;
-
-        div {
-            background-color: $background-colour;
-            box-shadow: $box-shadow;
-            margin: 10px 0 10px 0;
-            padding: 10px;
-            border-radius: 10px;
-            
-            a {
-                color: $main-colour;
-                text-decoration: none;
-                font-weight: bold;
-            }
-
-            a:hover {
-                color: $alt-colour;
-            }
-        }
-
-        .links {
+        .posts {
+            align-self: center;
             display: flex;
             flex-direction: column;
-
-            h1 {
-                margin-bottom: 0;
+    
+            .card-block {
+                min-width: 800px;
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: $main-colour;
+                    border-radius: 20px;
+                    padding: 20px;
+                    margin: 20px;
+                    box-shadow: 1px 1px 10px black;
+                    transform: translateZ(0);
+                    transition-duration: 0.3s;
+                    transition-property: transform;
+            
+                    h1 {
+                        margin: 20px 0 20px 0;
+                        font-size: 1.6rem;
+                        color: $text-colour;
+                    }
+            
+                    p {
+                        margin: 10px 0 10px 0;
+                        font-size: 1.4rem;
+                        color: $text-colour;
+                    }
+            
+                    .bottom-row {
+            
+                        .date {
+                            float: left;
+                        }
+                        
+                        .tag {
+                            float: right;
+                            background-color: $primary-colour;
+                            color: $background-colour;
+                            padding: 8px;
+                            border-radius: 3px;
+                        }
+                    }
+                }
+            
+                .card:hover,
+                .card:focus,
+                .card:active {
+                    transform: scale(1.1);
+                    box-shadow: 2px 2px 20px black;
+                }
             }
-
-            a {
-                margin-top: 10px;
+    
+            .links {
+                display: flex;
+                flex-direction: column;
+    
+                h1 {
+                    margin-bottom: 0;
+                }
+    
+                a {
+                    margin-top: 10px;
+                }
             }
+        }
+    
+        .sidebar {
         }
     }
 }
