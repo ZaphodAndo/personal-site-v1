@@ -7,6 +7,13 @@ body {
     sans-serif;
     margin: 0;
 
+    hr {
+        background-image: $main-gradient;
+        margin: 0;
+        border: 0;
+        height: 2px;
+    }
+
     .main {
         display: flex;
         justify-content: center;
@@ -16,72 +23,43 @@ body {
             align-self: center;
             display: flex;
             flex-direction: column;
-    
-            .card-block {
-                min-width: 800px;
-                .card {
-                    display: flex;
-                    flex-direction: column;
-                    background-color: $main-colour;
-                    border-radius: 20px;
-                    padding: 20px;
-                    margin: 20px;
-                    box-shadow: 1px 1px 10px black;
-                    transform: translateZ(0);
-                    transition-duration: 0.3s;
-                    transition-property: transform;
-            
-                    h1 {
-                        margin: 20px 0 20px 0;
-                        font-size: 1.6rem;
-                        color: $text-colour;
-                    }
-            
-                    p {
-                        margin: 10px 0 10px 0;
-                        font-size: 1.4rem;
-                        color: $text-colour;
-                    }
-            
-                    .bottom-row {
-            
-                        .date {
-                            float: left;
-                        }
-                        
-                        .tag {
-                            float: right;
-                            background-color: $primary-colour;
-                            color: $background-colour;
-                            padding: 8px;
-                            border-radius: 3px;
-                        }
-                    }
-                }
-            
-                .card:hover,
-                .card:focus,
-                .card:active {
-                    transform: scale(1.1);
-                    box-shadow: 2px 2px 20px black;
-                }
-            }
-    
-            .links {
-                display: flex;
-                flex-direction: column;
-    
-                h1 {
-                    margin-bottom: 0;
-                }
-    
-                a {
-                    margin-top: 10px;
-                }
-            }
         }
     
         .sidebar {
+            background-color: $main-colour;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            color: $text-colour;
+            min-width: 200px;
+            max-width: 200px;
+            text-align: justify;
+
+            h1 {
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+                color: $primary-colour;
+            }
+
+            p {
+                margin: 10px 0 10px 0;
+            }
+
+            a {
+                margin-top: 10px;
+                text-decoration: none;
+                color: $secondary-colour;
+            }
+
+            a:hover {
+                color: $primary-colour;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: column;
+            }
         }
     }
 }
