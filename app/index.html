@@ -4,33 +4,36 @@
         <link rel="stylesheet" type="text/css" href="/app/css/index.css">
         <link rel="stylesheet" type="text/css" href="/app/css/NavBar.css">
         <script src="/app/components/NavBar/NavBar.js"></script>
+        <script src="/app/components/CardBlock/CardBlock.js"></script>
     </head>
     <body>
+        <hr>
         <nav-bar class='nav-bar'></nav-bar>
         <div class="main">
             <div class="posts">
-                <div class="card-block">
-                    <div class='card'>
-                        <h1>Creating reusable web components!</h1>
-                        <p>Learn how to use reusable web components.</p>
-                        <div class='bottom-row'>
-                            <p class="date">1 June 2019</p>
-                            <p class='tag'>Web</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="links">
+                <card-block title='Creating reusable web components!' desc='Learn how to use reusable web components.' date='10 September 2019' tag='Web'></card-block>
+                <card-block title='The Huawei problem!' desc='Why we probably shouldnt let Huawei into our telecoms networks.' date='2 June 2019' tag='Big Tech'></card-block>
+                <card-block title='An original meme and a blast from the past!' desc='Its an old meme sir but it still checks out' date='1 June 2019' tag='Meme'></card-block>
+            </div>
+            <div class="sidebar">
+                <h1>About me</h1>
+                <p>
+                    Bacon ipsum dolor amet hamburger drumstick ham hock chicken bresaola rump pastrami ground round.
+                    Prosciutto hamburger ground round salami, cupim cow corned beef tail pork belly picanha.
+                </p>
+                <p>
+                    Ham hock sausage ham burgdoggen tenderloin alcatra. Pork chop ribeye shank tongue venison chuck shankle prosciutto. 
+                    Boudin brisket pork burgdoggen. <a href="/app/index.html">Read more</a>
+                </p>
+                <div class="links">
                     <h1>
                         My Links!
                     </h1>
                     <a href="https://twitter.com/Goebbels_Ando">🐦 Twitter</a>
                     <a href="https://www.linkedin.com/in/ethan-anderson-41ba9a172">🔗 LinkedIn</a>
-                    <a href="">📰 Medium</a>
+                    <a href="https://medium.com/@ethan.anderson">📰 Medium</a>
                     <a href="https://github.com/MrGoebbels">🐙 GitHub</a>
-                </div> -->
-            </div>
-            <div class="sidebar">
-                <h1>About me</h1>
+                </div>
             </div>
         </div>
     </body>
