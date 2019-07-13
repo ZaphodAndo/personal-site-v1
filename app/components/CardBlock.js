@@ -45,6 +45,9 @@ function getDefaultStyle() {
         .card-block {
             min-width: 800px;
         }
+        @media screen and (max-width: 1075px) {
+            .card-block {min-width: unset;}
+        }
         .card {
             display: flex;
             flex-direction: column;
