@@ -3,8 +3,8 @@ class NavBar extends HTMLElement {
         this.innerHTML = 
                         "<div>\
                             <a href='/app/index.html' class='home'>Home</a>\
-                            <a href='/app/index.html'>About</a>\
-                            <a href='/app/index.html'>Categories</a>\
+                            <a href='/app/about.html'>About</a>\
+                            <a href='/app/categories.html'>Categories</a>\
                         </div>";
     }
 }
