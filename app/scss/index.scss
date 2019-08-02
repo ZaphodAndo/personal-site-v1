@@ -23,6 +23,22 @@ body {
             align-self: center;
             display: flex;
             flex-direction: column;
+
+            .info {
+                color: $text-colour;
+                background-color: $main-colour;
+                border-radius: 20px;
+                padding: 20px;
+                margin: 20px;
+                min-width: 800px;
+
+                h1 {
+                    text-decoration: underline $web;
+                }
+            }
+            @media screen and (max-width: 1075px) {
+                .info {min-width: unset;}
+            }
         }
 
         @media screen and (max-width: 1075px) {
