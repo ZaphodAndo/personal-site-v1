@@ -8,7 +8,7 @@ class SideBar extends HTMLElement {
                             </p>\
                             <p>\
                                 Ham hock sausage ham burgdoggen tenderloin alcatra. Pork chop ribeye shank tongue venison chuck shankle prosciutto. \
-                                Boudin brisket pork burgdoggen. <a href='/app/index.html'>Read more</a>\
+                                Boudin brisket pork burgdoggen. <a href='/app/about.html'>Read more</a>\
                             </p>\
                             <div class='links'>\
                                 <h1>\
