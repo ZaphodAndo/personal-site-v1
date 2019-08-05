@@ -1,0 +1,50 @@
+@import 'Variables';
+
+main {
+    display: flex;
+    justify-content: center;
+
+    .page-content {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+
+        .info {
+            h1 {
+                color: $primary-colour;
+                margin: 20px 0 20px 0;
+            }
+        
+            p {
+                margin: 10px 0 10px 0;
+                font-size: 1.4rem;
+                color: white;
+            }
+        
+            .bottom-row {
+                .date {
+                    float: left;
+                }
+                
+                .tag {
+                    float: right;
+                    background-color: #BB86FC;
+                    color: #121212;
+                    padding: 5px;
+                    border-radius: 3px;
+                }
+            }
+        }
+    
+        .content {
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+
+            p {
+                color: $text-colour;
+            }
+        }
+    }
+}
