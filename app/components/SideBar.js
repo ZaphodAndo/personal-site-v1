@@ -3,13 +3,12 @@ class SideBar extends HTMLElement {
         this.innerHTML ="<div>\
                             <h1>About me</h1>\
                             <p>\
-                                Bacon ipsum dolor amet hamburger drumstick ham hock chicken bresaola rump pastrami ground round.\
-                                Prosciutto hamburger ground round salami, cupim cow corned beef tail pork belly picanha.\
+                                Hi I’m Ethan, an apprentice applications developer who works for a company called PebblePad.\
                             </p>\
                             <p>\
-                                Ham hock sausage ham burgdoggen tenderloin alcatra. Pork chop ribeye shank tongue venison chuck shankle prosciutto. \
-                                Boudin brisket pork burgdoggen. <a href='/app/about.html'>Read more</a>\
+                                I am mostly a Frontend dev that occasionally delves into a bit of backend and other areas especially at my place of work where I use a lot of C# and .NET alongside your usual frontend technologies such as JavaScript.\
                             </p>\
+                            <a href='/app/about.html'>Read more</a>\
                             <div class='links'>\
                                 <h1>\
                                     My Links!\
