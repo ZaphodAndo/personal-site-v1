@@ -8,7 +8,7 @@ class SideBar extends HTMLElement {
                             <p>\
                                 I am mostly a Frontend dev that occasionally delves into a bit of backend and other areas especially at my place of work where I use a lot of C# and .NET alongside your usual frontend technologies such as JavaScript.\
                             </p>\
-                            <a href='/app/about.html'>Read more</a>\
+                            <a href='/about.html'>Read more</a>\
                             <div class='links'>\
                                 <h1>\
                                     My Links!\
