@@ -21,7 +21,6 @@ class CardBlock extends HTMLElement {
                 border-radius: 20px;
                 padding: 20px;
                 margin: 20px;
-                min-width: 650px;
                 box-shadow: 1px 1px 10px black;
                 transform: translateZ(0);
                 transition-duration: 0.3s;
