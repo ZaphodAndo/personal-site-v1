@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  min-width: 200px;
+  max-width: 200px;
+  text-align: justify; }
+  .sidebar h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #BB86FC; }
+  .sidebar p {
+    margin: 10px 0 10px 0; }
+  .sidebar a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #03DAC5; }
+  .sidebar a:hover {
+    color: #BB86FC; }
+  .sidebar .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; }
+  @media screen and (max-width: 1075px) {
+    .sidebar {
+      align-self: center;
+      max-width: 660px;
+      min-width: unset; } }
