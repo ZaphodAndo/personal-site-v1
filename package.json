@@ -1,0 +1,27 @@
+{
+  "name": "ethana.dev",
+  "version": "1.0.0",
+  "description": "My website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGoebbels/ethana.dev.git"
+  },
+  "author": "Ethan Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrGoebbels/ethana.dev/issues"
+  },
+  "homepage": "https://github.com/MrGoebbels/ethana.dev#readme",
+  "dependencies": {
+    "sass": "^1.22.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-wait": "0.0.2"
+  }
+}

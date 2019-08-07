@@ -1,0 +1,59 @@
+@import 'Variables';
+
+main {
+    .content {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        background-color: $main-colour;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        color: $text-colour;
+        text-align: justify;
+        max-width: 1000px;
+
+        h1 {
+            text-align: center;
+            color: $primary-colour;
+        }
+
+        h2 {
+            margin: 0;
+            color: $secondary-colour;
+        }
+
+        .middle {
+            margin: 0;
+        }
+
+        .last {
+            margin-top: 0px;
+            margin-bottom: 21px;
+
+            .link {
+                text-decoration: none;
+                color: $text-colour;
+            }
+            .link:hover {
+                color: $primary-colour;
+            }
+        }
+
+        .my-links {
+            margin-bottom: 21px;
+            display: flex;
+            flex-direction: column;
+
+            a {
+                margin-top: 10px;
+                text-decoration: none;
+                color: $secondary-colour;
+            }
+        
+            a:hover {
+                color: $primary-colour;
+            }
+        }
+    }
+}

@@ -1,0 +1,147 @@
+@import 'Variables';
+
+main {
+    .content {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        background-color: $main-colour;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        color: $text-colour;
+        text-align: justify;
+        max-width: 910px;
+
+        h1 {
+            color: $primary-colour;
+        }
+
+        .categories-list {
+            .tag {
+                display: inline-block;
+                color: $background-colour;
+                padding: 8px;
+                border-radius: 3px;
+                text-decoration: none;
+                font-size: 1.4rem;
+                margin: 1px;
+                transform: translateZ(0);
+                transition-duration: 0.3s;
+                transition-property: transform;
+            }
+            .tag:hover,
+            .tag:focus,
+            .tag:active {
+                transform: scale(1.1);
+            }
+        }
+
+        .categories {
+            a {
+                text-decoration: none;
+                color: $text-colour;
+            }
+
+            #web {
+                h2 {
+                    text-decoration: underline $web;
+                }
+
+                a:hover {
+                    color: $web;
+                }
+            }
+
+            #html {
+                h2 {
+                    text-decoration: underline $html;
+                }
+
+                a:hover {
+                    color: $html;
+                }
+            }
+
+            #css {
+                h2 {
+                    text-decoration: underline $css;
+                }
+
+                a:hover {
+                    color: $css;
+                }
+            }
+
+            #javascript {
+                h2 {
+                    text-decoration: underline $javascript;
+                }
+
+                a:hover {
+                    color: $javascript;
+                }
+            }
+
+            #node {
+                h2 {
+                    text-decoration: underline $node;
+                }
+
+                a:hover {
+                    color: $node;
+                }
+            }
+
+            #typescript {
+                h2 {
+                    text-decoration: underline $typescript;
+                }
+
+                a:hover {
+                    color: $typescript;
+                }
+            }
+
+            #dart {
+                h2 {
+                    text-decoration: underline $dart;
+                }
+
+                a:hover {
+                    color: $dart;
+                }
+            }
+
+            #flutter {
+                h2 {
+                    text-decoration: underline $flutter;
+                }
+
+                a:hover {
+                    color: $flutter;
+                }
+            }
+
+            #git {
+                h2 {
+                    text-decoration: underline $git;
+                }
+
+                a:hover {
+                    color: $git;
+                }
+            }
+
+            #meme {
+                h2 {
+                    text-decoration: underline $meme;
+                }
+
+                a:hover {
+                    color: $meme;
+                }
+            }
+        }
+    }
+}
